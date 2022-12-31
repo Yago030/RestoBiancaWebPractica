@@ -251,7 +251,8 @@ img {
 
 
 .entrada p{
-    text-align: left;
+    align-content: center;
+    align-items: center;
     width: auto;
 }
 
