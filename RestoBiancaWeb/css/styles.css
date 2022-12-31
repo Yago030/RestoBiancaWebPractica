@@ -267,16 +267,15 @@ img {
 
 
 
-
-/*  ********** sobre nosotros **********/
+/* ***************** menu   ********/
 
 @media (min-width: 768px) {
-    .sobre-nosotros{
-        display: flex;
+    .contenedor--menu{
+        display: grid;
     }
 
-    .sobre-nosotros__imagen,
-    .sobre-nosotros__texto{
-        flex-basis: 50%;
+    .imagenes-menu{
+    height:  20rem;
+    width: 20rem;
     }
 }
