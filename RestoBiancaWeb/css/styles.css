@@ -185,9 +185,13 @@ img {
 
 
 .entrada__contenido{
-    padding: 4rem;
+    align-self: center;
 }
 
+
+.entrada__imagen{
+    align-items: center;
+}
 
 .entrada:last-of-type{ /* para que el ultmo entrada no tenga linea */
     border:none;
@@ -238,6 +242,7 @@ img {
 /* Aca meti   el redondeo de las imagenes revisar y correr luego*/
 .tamaño{
     border-radius: 10%;
+    gap: 2rem;
     height: 80%;
     width: 80%;
     
