@@ -189,8 +189,14 @@ img {
 }
 
 
+.tamaño{
+  border-radius:2% ;
+}
+
 .entrada__imagen{
     align-items: center;
+    padding: 4rem;
+   
 }
 
 .entrada:last-of-type{ /* para que el ultmo entrada no tenga linea */
@@ -240,6 +246,7 @@ img {
 
 
 /* Aca meti   el redondeo de las imagenes revisar y correr luego*/
+/*
 .tamaño{
     border-radius: 10%;
     gap: 2rem;
@@ -247,6 +254,8 @@ img {
     width: 80%;
     
 }
+*/
+
 
 
 
@@ -274,6 +283,17 @@ img {
 
 
 /* ***************** menu   ********/
+
+
+.contenedor--menu{
+    display: grid;
+}
+
+.imagenes-menu{
+height:  20rem;
+width: 20rem;
+}
+
 
 @media (min-width: 768px) {
     .contenedor--menu{
