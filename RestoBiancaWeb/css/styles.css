@@ -194,6 +194,7 @@ p  {
 
 .entrada__contenido{
     align-self: center;
+   
 }
 
 
@@ -260,10 +261,6 @@ p  {
 }
 
 /* UBICACION */
-
-
-
-/*                        *footer   *************************/
 
 
 
@@ -384,19 +381,71 @@ p  {
     color: #f2f2f2;
    
   }
-.mapa-contenido{
-    margin: 3rem;
-    box-shadow: 10px 10px 30px 15px #f89f10;
 
+
+  .mapa-contenido{
+    margin: 3rem;
 }
+  
+
+  @media (min-width: 768px) {
+    .mapa-contenido{
+        margin: 3rem;
+        box-shadow: 10px 10px 10px 10px #f5b504;
+    
+    }
+    
+  }
+
+
+
+  
+
+/*                        *footer   *************************/
+
 
 
 
   
 .footer{
-    background-color: #f89f10;
+    display: flex;
+   
+  
+background: rgba(255,200,38,1);
+background: -moz-linear-gradient(top, rgba(255,200,38,1) 0%, rgba(244,194,1,1) 19%, rgba(255,163,38,1) 40%, rgba(240,47,23,1) 71%, rgba(255,37,37,1) 98%, rgba(255,37,37,1) 100%);
+background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(255,200,38,1)), color-stop(19%, rgba(244,194,1,1)), color-stop(40%, rgba(255,163,38,1)), color-stop(71%, rgba(240,47,23,1)), color-stop(98%, rgba(255,37,37,1)), color-stop(100%, rgba(255,37,37,1)));
+background: -webkit-linear-gradient(top, rgba(255,200,38,1) 0%, rgba(244,194,1,1) 19%, rgba(255,163,38,1) 40%, rgba(240,47,23,1) 71%, rgba(255,37,37,1) 98%, rgba(255,37,37,1) 100%);
+background: -o-linear-gradient(top, rgba(255,200,38,1) 0%, rgba(244,194,1,1) 19%, rgba(255,163,38,1) 40%, rgba(240,47,23,1) 71%, rgba(255,37,37,1) 98%, rgba(255,37,37,1) 100%);
+background: -ms-linear-gradient(top, rgba(255,200,38,1) 0%, rgba(244,194,1,1) 19%, rgba(255,163,38,1) 40%, rgba(240,47,23,1) 71%, rgba(255,37,37,1) 98%, rgba(255,37,37,1) 100%);
+background: linear-gradient(to bottom, rgba(255,200,38,1) 0%, rgba(244,194,1,1) 19%, rgba(255,163,38,1) 40%, rgba(240,47,23,1) 71%, rgba(255,37,37,1) 98%, rgba(255,37,37,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffc826', endColorstr='#ff2525', GradientType=0 );
+
     padding-bottom: 3rem;
     margin-top: 4rem;;
     
 }
+.container{
+    
+    width:95%;
+    max-width:900px;
+    padding:32px 64px;
+    margin:auto;
+}
+
+.svg{
+    height: 5rem;
+}
+
+footer p {
+    color: #000000;
+}
+
+.barra2{
+    padding-top: 3rem;
+    width: 90%;
+    display: flex;
+    justify-content:space-around ;
+    align-items: center;
+}
+
 
