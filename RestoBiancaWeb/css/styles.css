@@ -32,7 +32,6 @@ body{
 .contenedor{
     max-width: 160rem;
     width: 85%;
-
     margin: 0 auto; /* centro auto todos los contenedores */
 }
 
@@ -362,20 +361,7 @@ p  {
     flex-basis: 60%;
     padding: 1rem;
   }
-  /*
-  .precio-plato-carta{
-    display: flex;
-    flex-basis: 15%;
-    justify-content: center;
-    font-weight: bold;
-  }
-*/
-/* este lo piso porque mande una mq abaj
-  @media (max-width:680px){
-    .column-2.carta{
-      grid-template-columns: repeat(1,1fr);
-    }
-  }*/
+  
 
   .mapa{
     color: #f2f2f2;
@@ -384,22 +370,20 @@ p  {
 
 
   .mapa-contenido{
-    margin: 3rem;
+    margin: 2rem;
 }
   
 
   @media (min-width: 768px) {
     .mapa-contenido{
         margin: 3rem;
-        box-shadow: 10px 10px 10px 10px #f5b504;
+        box-shadow: 10px 10px 10px 10px #fdd873;
     
     }
     
   }
 
 
-
-  
 
 /*                        *footer   *************************/
 
@@ -478,5 +462,20 @@ footer p {
     }
 }
 
+
+
+
+/***********    sobre Nosotros  ***************/
+
+.sn{
+    color: #f2f2f2;
+}
+
+
+.contenedor--sobre_nosotros{
+display: grid;
+
+
+}
 
 
