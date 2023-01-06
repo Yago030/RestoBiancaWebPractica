@@ -160,6 +160,32 @@ body{
  background-color: #000000;
 }
 
+.hello{
+   
+        background-image: linear-gradient(to right, red, orange, yellow,red,yellow,orange,red);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        font-size: 5rem;
+      
+}
+
+
+.articulo__primero{
+    display: grid;
+    grid-template-rows: repeat(1, 1fr);
+}
+@media (min-width: 768px) {
+    .articulo__primero{
+        display: grid;
+        grid-template-rows: repeat(1, 1fr);
+    }
+}
+
+ul li{
+    color:#ffffff;
+
+}
+
 p  {
     text-align: justify;
     color: #f2f2f2;
@@ -181,7 +207,10 @@ p  {
     .entrada{
         display: grid;
         grid-template-columns: 1fr 1fr;
-        border-bottom: 1px solid var(--gris);
+      /*  border-bottom: 1px solid var(--gris);*/
+      border-bottom: 1px solid rgba(255,200,38,1);
+       
+        
         margin-bottom: 2rem;
         
     }
@@ -258,6 +287,7 @@ p  {
     align-items: center;
     width: auto;
 }
+
 
 /* UBICACION */
 
