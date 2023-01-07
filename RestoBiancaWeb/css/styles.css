@@ -74,7 +74,14 @@ img {
     text-align: center;
 }
 
+.espaciolineas{
+    line-height:2;
+    font-size: 2rem;
+}
 
+.padding{
+    padding-bottom: 4rem;
+}
 /*************** header *************/
 
 .header {
@@ -167,6 +174,12 @@ body{
         -webkit-text-fill-color: transparent;
         font-size: 5rem;
       
+}
+
+.tamaño2{
+    height: 80rem;
+    width: 80;
+    border-radius: 10%;
 }
 
 
