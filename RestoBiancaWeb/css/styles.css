@@ -1,6 +1,9 @@
 :root{
     --fuenteHeading: 'PT Sans', sans-serif;
     --fuenteParrafos: 'Open Sans', sans-serif;
+    --fuenteHeading:'Arima Madurai', cursive;
+    --fuenteParrafos: 'Mulish'. sans-serif;
+
 
     --primario: #784d3c;
     --gris:#e1e1e1;
@@ -37,13 +40,16 @@ body{
 
 a{
     text-decoration: none;
+
 }
 
 h1,h2,h3,h4{
     font-family: var(--fuenteHeading);
-    line-height: 1.2;
+    line-height: 1.4;
 }
-
+p{
+    font-size: 2rem;
+}
 h1{
     font-size: 4.8rem
 }
@@ -155,7 +161,7 @@ img {
 .navegacion__enlace{
     display: block;
     text-align: center;
-    font-size: 1.8rem;
+    font-size: 2.5rem;
     color: var(--blanco);
     margin: 10px;
 }
@@ -176,6 +182,13 @@ body{
       
 }
 
+.hello2{
+   
+    background-image: linear-gradient(to right, red, orange, yellow,red,yellow,orange,red);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  
+}
 .tamaño2{
     height: 80rem;
     width: 80;
@@ -203,6 +216,7 @@ p  {
     text-align: justify;
     color: #f2f2f2;
 }
+
 
 
 @media (min-width: 768px) {
@@ -478,7 +492,14 @@ footer p {
    
 }
 
-@media (max-width:767px ) {
+.logofooter{
+    align-items: center;
+    justify-content: center;
+    
+}
+
+/*
+@media (max-width:768px ) {
     .barra2{
         display: block;
         padding: 3rem ;
@@ -493,7 +514,7 @@ footer p {
     }
     
 }
-
+*/
 @media (min-width: 768px) {
     .barra2{
         padding-top: 3rem;
@@ -503,6 +524,7 @@ footer p {
         justify-content:space-around ;
         align-items: center;
     }
+
 }
 
 
