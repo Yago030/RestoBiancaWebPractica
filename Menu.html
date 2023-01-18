@@ -18,6 +18,7 @@
         rel="stylesheet">
         <!--Analytics de vercel-->
         <script defer src="/_vercel/insights/script.js"></script>
+        <script src="https://kit.fontawesome.com/283335a286.js" crossorigin="anonymous"></script>
        
 </head> 
 <body>
@@ -56,373 +57,147 @@
 
 
 
-    <section class="menu contenedor">
-      <h2 class="texto-platillos hello">Platillos populares</h2>
-      <div class="botones-platillos">
-          <button class="todos btn btn-verde">Todos</button>
-          <button class="ensaladas btn btn-verde">Ensaladas</button>
-          <button class="pasta btn btn-verde">Pasta</button>
-          <button class="pizza btn btn-verde">Pizza</button>
-          <button class="postres btn btn-verde">Postres</button>
-      </div>
-      <div class="platillos">
-          <div class="platillo" data-platillo="ensalada">
-              <img src="RestoBiancaWeb/img/comida.jpg" alt="ensalada">
-              <h2>Quinoa</h2>
-              <p>Quinoa, cerezas, tomate, aceitunas, cereal.</p>
-              <div class="precio">
-                  <p>$40.0</p>
-                  <button>Comprar<i class="fas fa-shopping-basket" aria-hidden="true"></i></button>
-              </div>
-          </div>
-          <div class="platillo" data-platillo="ensalada">
-              <img data-src="assets/img/ensalada2.webp" alt="ensalada">
-              <h2>Quinoa</h2>
-              <p>Quinoa, cerezas, tomate, aceitunas, cereal.</p>
-              <div class="precio">
-                  <p>$40.0</p>
-                  <button><i class="fas fa-shopping-basket" aria-hidden="true"></i></button>
-              </div>
-          </div>
-          <div class="platillo" data-platillo="ensalada">
-              <img data-src="assets/img/ensalada2.webp" alt="ensalada">
-              <h2>Quinoa</h2>
-              <p>Quinoa, cerezas, tomate, aceitunas, cereal.</p>
-              <div class="precio">
-                  <p>$40.0</p>
-                  <button><i class="fas fa-shopping-basket" aria-hidden="true"></i></button>
-              </div>
-          </div>
-          <div class="platillo" data-platillo="pasta">
-              <img data-src="assets/img/pasta1.webp" alt="pasta">
-              <h2>Quinoa</h2>
-              <p>Quinoa, cerezas, tomate, aceitunas, cereal.</p>
-              <div class="precio">
-                  <p>$40.0</p>
-                  <button><i class="fas fa-shopping-basket" aria-hidden="true"></i></button>
-              </div>
-          </div>
-          <div class="platillo" data-platillo="pasta">
-              <img data-src="assets/img/pasta2.webp" alt="pasta">
-              <h2>Quinoa</h2>
-              <p>Quinoa, cerezas, tomate, aceitunas, cereal.</p>
-              <div class="precio">
-                  <p>$40.0</p>
-                  <button><i class="fas fa-shopping-basket" aria-hidden="true"></i></button>
-              </div>
-          </div>
-          <div class="platillo" data-platillo="pasta">
-              <img data-src="assets/img/pasta2.webp" alt="pasta">
-              <h2>Quinoa</h2>
-              <p>Quinoa, cerezas, tomate, aceitunas, cereal.</p>
-              <div class="precio">
-                  <p>$40.0</p>
-                  <button><i class="fas fa-shopping-basket" aria-hidden="true"></i></button>
-              </div>
-          </div>
-          <div class="platillo" data-platillo="pizza">
-              <img data-src="assets/img/pizza1.webp" alt="pizza">
-              <h2>Quinoa</h2>
-              <p>Quinoa, cerezas, tomate, aceitunas, cereal.</p>
-              <div class="precio">
-                  <p>$40.0</p>
-                  <button><i class="fas fa-shopping-basket" aria-hidden="true"></i></button>
-              </div>
-          </div>
-          <div class="platillo" data-platillo="pizza">
-              <img data-src="assets/img/pizza2.webp" alt="pizza">
-              <h2>Quinoa</h2>
-              <p>Quinoa, cerezas, tomate, aceitunas, cereal.</p>
-              <div class="precio">
-                  <p>$40.0</p>
-                  <button><i class="fas fa-shopping-basket" aria-hidden="true"></i></button>
-              </div>
-          </div>
-          <div class="platillo" data-platillo="pizza">
-              <img data-src="assets/img/pizza2.webp" alt="pizza">
-              <h2>Quinoa</h2>
-              <p>Quinoa, cerezas, tomate, aceitunas, cereal.</p>
-              <div class="precio">
-                  <p>$40.0</p>
-                  <button><i class="fas fa-shopping-basket" aria-hidden="true"></i></button>
-              </div>
-          </div>
-          <div class="platillo" data-platillo="postre">
-              <img data-src="assets/img/postres1.webp" alt="postre">
-              <h2>Quinoa</h2>
-              <p>Quinoa, cerezas, tomate, aceitunas, cereal.</p>
-              <div class="precio">
-                  <p>$40.0</p>
-                  <button><i class="fas fa-shopping-basket" aria-hidden="true"></i></button>
-              </div>
-          </div>
-          <div class="platillo" data-platillo="postre">
-              <img data-src="assets/img/postres2.webp" alt="postre">
-              <h2>Quinoa</h2>
-              <p>Quinoa, cerezas, tomate, aceitunas, cereal.</p>
-              <div class="precio">
-                  <p>$40.0</p>
-                  <button><i class="fas fa-shopping-basket" aria-hidden="true"></i></button>
-              </div>
-          </div>
-          <div class="platillo" data-platillo="postre">
-              <img data-src="assets/img/postres2.webp" alt="postre">
-              <h2>Quinoa</h2>
-              <p>Quinoa, cerezas, tomate, aceitunas, cereal.</p>
-              <div class="precio">
-                  <p>$40.0</p>
-                  <button><i class="fas fa-shopping-basket" aria-hidden="true"></i></button>
-              </div>
-          </div>
-      </div>
-  </section>
-
-    <main class="contenedor contenedor--menu main-menu ">
-           <h3 class="centrar-texto">Nuestra carta </h3>
-        
-           <nav class="navegacion menu-nav">
-            <a href="#Pizzas" class="navegacion__enlace">Pizzas</a>
-            <a href="#Hamburguesas" class="navegacion__enlace">Hamburguesas</a>
-            <a href="#Lomos" class="navegacion__enlace">Lomos</a>
-            <a href="#Bebidas" class="navegacion__enlace">Bebidas sin Alcohol</a>
-          
-        </nav>
-
-           <section class="wrap">
-            <div class="wrap-title-section">
   
-                <a name="Hamburguesas">
-              <h2>Hamburguesas</h2>
-            </div>
-            <div class="wrap column-2 carta">
-              <div class="plato-carta">
-                <div class="img-plato-carta">
-                  <img src="RestoBiancaWeb/img/hamburguesa.jpg" alt="">
-                </div>
-                <div class="title-plato-carta">
-                  <h4>Lorem, ipsum dolor.</h4>
-                  <p>Lorem ipsum dolor sit amet.</p>
-                </div>
-                <div class="precio-plato-carta">
-                </div>
-              </div>
-              <div class="plato-carta">
-                <div class="img-plato-carta">
-                    <img src="RestoBiancaWeb/img/hamburguesa.jpg" alt="">
-                </div>
-                <div class="title-plato-carta">
-                  <h4>Lorem, ipsum dolor.</h4>
-                  <p>Lorem ipsum dolor sit amet.</p>
-                </div>
-                <div class="precio-plato-carta">
-               
-                </div>
-              </div> 
-              <div class="plato-carta">
-                <div class="img-plato-carta">
-                    <img src="RestoBiancaWeb/img/hamburguesa.jpg" alt="">
-                </div>
-                <div class="title-plato-carta">
-                  <h4>Lorem, ipsum dolor.</h4>
-                  <p>Lorem ipsum dolor sit amet.</p>
-                </div>
-                <div class="precio-plato-carta">
-            
-                </div>
-              </div>
-              <div class="plato-carta">
-                <div class="img-plato-carta">
-                    <img src="RestoBiancaWeb/img/hamburguesa.jpg" alt="">
-                </div>
-                <div class="title-plato-carta">
-                  <h4>Lorem, ipsum dolor.</h4>
-                  <p>Lorem ipsum dolor sit amet.</p>
-                </div>
-                <div class="precio-plato-carta">
-               
-                </div>
-              </div>    
-            </div>
-            <div class="wrap-title-section">
+    <main class="contenedor contenedor--menu main-menu ">
+       
+        
 
 
-
-
-
-
-
-                <a name="Pizzas">
-              <h2>Pizzas</h2>
-            </div>
-            <div class="wrap column-2 carta">
-              <div class="plato-carta">
-                <div class="img-plato-carta">
-                    <img src="RestoBiancaWeb/img/pizza.jpg" alt="">
-                </div>
-                <div class="title-plato-carta">
-                  <h4>Lorem, ipsum dolor.</h4>
-                  <p>Lorem ipsum dolor sit amet.</p>
-                </div>
-                <div class="precio-plato-carta">
-                 
-                </div>
-              </div>
-              <div class="plato-carta">
-                <div class="img-plato-carta">
-                    <img src="RestoBiancaWeb/img/pizza.jpg" alt="">
-                </div>
-                <div class="title-plato-carta">
-                  <h4>Lorem, ipsum dolor.</h4>
-                  <p>Lorem ipsum dolor sit amet.</p>
-                </div>
-                <div class="precio-plato-carta">
-                
-                </div>
-              </div> 
-              <div class="plato-carta">
-                <div class="img-plato-carta">
-                    <img src="RestoBiancaWeb/img/pizza.jpg" alt="">
-                </div>
-                <div class="title-plato-carta">
-                  <h4>Lorem, ipsum dolor.</h4>
-                  <p>Lorem ipsum dolor sit amet.</p>
-                </div>
-                <div class="precio-plato-carta">
-                 
-                </div>
-              </div>
-              <div class="plato-carta">
-                <div class="img-plato-carta">
-                    <img src="RestoBiancaWeb/img/pizza.jpg" alt="">
-                </div>
-                <div class="title-plato-carta">
-                  <h4>Lorem, ipsum dolor.</h4>
-                  <p>Lorem ipsum dolor sit amet.</p>
-                </div>
-                <div class="precio-plato-carta">
-                 
-                </div>
-              </div>   
-            </div>
-            <div class="wrap-title-section">
-
-
-
-
-              <a name="Pizzas">
-                <h2>Lomos</h2>
-              </div>
-              <div class="wrap column-2 carta">
-                <div class="plato-carta">
-                  <div class="img-plato-carta">
-                      <img src="RestoBiancaWeb/img/lomo.jpg" alt="">
-                  </div>
-                  <div class="title-plato-carta">
-                    <h4>Lorem, ipsum dolor.</h4>
-                    <p>Lorem ipsum dolor sit amet.</p>
-                  </div>
-                  <div class="precio-plato-carta">
-                   
-                  </div>
-                </div>
-                <div class="plato-carta">
-                  <div class="img-plato-carta">
-                      <img src="RestoBiancaWeb/img/lomo.jpg" alt="">
-                  </div>
-                  <div class="title-plato-carta">
-                    <h4>Lorem, ipsum dolor.</h4>
-                    <p>Lorem ipsum dolor sit amet.</p>
-                  </div>
-                  <div class="precio-plato-carta">
-                  
-                  </div>
-                </div> 
-                <div class="plato-carta">
-                  <div class="img-plato-carta">
-                      <img src="RestoBiancaWeb/img/lomo.jpg" alt="">
-                  </div>
-                  <div class="title-plato-carta">
-                    <h4>Lorem, ipsum dolor.</h4>
-                    <p>Lorem ipsum dolor sit amet.</p>
-                  </div>
-                  <div class="precio-plato-carta">
-                   
-                  </div>
-                </div>
-                <div class="plato-carta">
-                  <div class="img-plato-carta">
-                      <img src="RestoBiancaWeb/img/lomo.jpg" alt="">
-                  </div>
-                  <div class="title-plato-carta">
-                    <h4>Lorem, ipsum dolor.</h4>
-                    <p>Lorem ipsum dolor sit amet.</p>
-                  </div>
-                  <div class="precio-plato-carta">
-                   
-                  </div>
-                </div>   
-              </div>
-              <div class="wrap-title-section">
-
-
-         
-          <a name="Bebidas">
-            <h2>Bebidas Sin Alcohol</h2>
-          </div>
-          <div class="wrap column-2 carta">
-            <div class="plato-carta">
-              <div class="img-plato-carta">
-                  <img src="RestoBiancaWeb/img/bebida.jpg" alt="">
-              </div>
-              <div class="title-plato-carta">
-                <h4>Lorem, ipsum dolor.</h4>
-                <p>Lorem ipsum dolor sit amet.</p>
-              </div>
-              <div class="precio-plato-carta">
-              
-              </div>
-            </div>
-            <div class="plato-carta">
-              <div class="img-plato-carta">
-                  <img src="RestoBiancaWeb/img/bebida.jpg" alt="">
-              </div>
-              <div class="title-plato-carta">
-                <h4>Lorem, ipsum dolor.</h4>
-                <p>Lorem ipsum dolor sit amet.</p>
-              </div>
-              <div class="precio-plato-carta">
-             
-              </div>
-            </div> 
-            <div class="plato-carta">
-              <div class="img-plato-carta">
-                  <img src="RestoBiancaWeb/img/bebida.jpg" alt="">
-              </div>
-              <div class="title-plato-carta">
-                <h4>Lorem, ipsum dolor.</h4>
-                <p>Lorem ipsum dolor sit amet.</p>
-              </div>
-              <div class="precio-plato-carta">
-            
-              </div>
-            </div>
-            <div class="plato-carta">
-              <div class="img-plato-carta">
-                  <img src="RestoBiancaWeb/img/bebida.jpg" alt="">
-              </div>
-              <div class="title-plato-carta">
-                <h4>Lorem, ipsum dolor.</h4>
-                <p>Lorem ipsum dolor sit amet.</p>
-              </div>
-              <div class="precio-plato-carta">
       
-              </div>
-            </div>   
+        <section class="menu contenedor">
+          <h2 class="texto-platillos hello">Platillos populares</h2>
+          <div class="botones-platillos">
+              <a href="" class="   boton--primarioMenu ">Todos</a>
+              <a href="" class="   boton--primarioMenu">Ensaladas</a>
+              <a href="" class="   boton--primarioMenu">Pasta</a>
+              <a href="" class="   boton--primarioMenu">Pizza</a>
+              <a href="" class="   boton--primarioMenu">Postres</a>
           </div>
-        </section>
+          <div class="platillos">
 
-    </main>
 
+            
+            <!--HAMBURGUESAS-->
+
+            <div>
+
+              
+            </div>
+
+            <div class="platillo hamburguesa" >
+              <img src="RestoBiancaWeb/img/comida.jpg" alt="hamburguesas de menu">
+              <h2>Hamburguesa con Muzzarella</h2>
+              <p>Salsa de tomate, Queso Muzarrella, tomate, aceitunas, cereal.</p>
+              <div class="precio">
+                 
+                  <a href="http://wa.me/5492604202869" class="boton boton--menu">Pedir</a>
+                  
+
+
+                 
+              </div>
+          </div>
+          <div class="platillo hamburguesa" >
+            <img src="RestoBiancaWeb/img/comida.jpg" alt="hamburguesas de menu">
+            <h2>Hamburguesa con Muzzarella</h2>
+            <p>Salsa de tomate, Queso Muzarrella, tomate, aceitunas, cereal.</p>
+            <div class="precio">
+               
+                <a href="http://wa.me/5492604202869" class="boton boton--menu">Pedir</a>
+                
+
+
+               
+            </div>
+        </div>
+        <div class="platillo hamburguesa" >
+          <img src="RestoBiancaWeb/img/comida.jpg" alt="hamburguesas de menu">
+          <h2>Hamburguesa con Muzzarella</h2>
+          <p>Salsa de tomate, Queso Muzarrella, tomate, aceitunas, cereal.</p>
+          <div class="precio">
+             
+              <a href="http://wa.me/5492604202869" class="boton boton--menu">Pedir</a>
+              
+
+
+             
+          </div>
+      </div>
+      <div class="platillo hamburguesa" >
+        <img src="RestoBiancaWeb/img/comida.jpg" alt="hamburguesas de menu">
+        <h2>Hamburguesa con Muzzarella</h2>
+        <p>Salsa de tomate, Queso Muzarrella, tomate, aceitunas, cereal.</p>
+        <div class="precio">
+           
+            <a href="http://wa.me/5492604202869" class="boton boton--menu">Pedir</a>
+            
+
+
+           
+        </div>
+    </div>
+              
+            <!--MILANESAS-->
+            <div class="platillo hamburguesa" >
+              <img src="RestoBiancaWeb/img/comida.jpg" alt="hamburguesas de menu">
+              <h2>Hamburguesa con Muzzarella</h2>
+              <p>Salsa de tomate, Queso Muzarrella, tomate, aceitunas, cereal.</p>
+              <div class="precio">
+                 
+                  <a href="http://wa.me/5492604202869" class="boton boton--menu">Pedir</a>
+                  
+
+
+                 
+              </div>
+          </div>
+          <div class="platillo hamburguesa" >
+            <img src="RestoBiancaWeb/img/comida.jpg" alt="hamburguesas de menu">
+            <h2>Hamburguesa con Muzzarella</h2>
+            <p>Salsa de tomate, Queso Muzarrella, tomate, aceitunas, cereal.</p>
+            <div class="precio">
+               
+                <a href="http://wa.me/5492604202869" class="boton boton--menu">Pedir</a>
+                
+
+
+               
+            </div>
+        </div>
+        <div class="platillo hamburguesa" >
+          <img src="RestoBiancaWeb/img/comida.jpg" alt="hamburguesas de menu">
+          <h2>Hamburguesa con Muzzarella</h2>
+          <p>Salsa de tomate, Queso Muzarrella, tomate, aceitunas, cereal.</p>
+          <div class="precio">
+             
+              <a href="http://wa.me/5492604202869" class="boton boton--menu">Pedir</a>
+              
+
+
+             
+          </div>
+      </div>
+      <div class="platillo hamburguesa" >
+        <img src="RestoBiancaWeb/img/comida.jpg" alt="hamburguesas de menu">
+        <h2>Hamburguesa con Muzzarella</h2>
+        <p>Salsa de tomate, Queso Muzarrella, tomate, aceitunas, cereal.</p>
+        <div class="precio">
+           
+            <a href="http://wa.me/5492604202869" class="boton boton--menu">Pedir</a>
+            
+
+
+           
+        </div>
+    </div>
+              
+        
+          </div>
+      </section>
+    
+
+
+  </main>
 
  
     <footer class="footer">

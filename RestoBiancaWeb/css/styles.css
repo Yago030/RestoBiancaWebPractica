@@ -305,6 +305,15 @@ p  {
 
 }
 
+
+
+.boton--menu{
+    /* background-color: var(--negro);*/
+     background-image: linear-gradient(to right, #daaf55, #ee8309,  #daaf55);
+     border-radius: 20px;
+ 
+ }
+
 .boton--secundario{
     background-color: var(--primario);
 
@@ -324,102 +333,8 @@ p  {
 
 
 
-/** Tarjetas Restaurante **/
-
-.main-menu{
-    color: #f2f2f2;
-}
-
-.main-menu nav a{
-    align-content: center;
-    background-color: #f89f10;
-    border-bottom:0 2px 2px 0 solid #ffff00;
-    padding: 0.5rem;
-}
-@media (min-width: 768px) {
-    .main-menu nav a{
-        align-content: center;
-    background-color: #f89f10;
-    border-bottom: 2px solid #ffff00;
-    padding: 0.5rem;
-    }
-}
-
-.menu-nav{
-    flex-wrap: wrap;
-    align-content: center;
-}
-
-.title-plato-carta p, h4{
-    color: white;
-}
-.wrap{
-   
-    max-width:90%;
-    /*max-width: 1200px;*/
-    margin: 0 auto;
-
-  }
-@media (min-width: 768px) {
-    .wrap{
-        max-width:100%;
-        /*max-width: 1200px;*/
-        margin: 0 auto;
-      }
-}  
 
 
-  .column-2.carta{
-    display: grid;
-    align-items: center;
-    justify-content:center;
-    align-items:center;
-    grid-template-columns: repeat(1,1fr);
-    row-gap: 1rem;
-  }
-
-  @media (min-width: 768px) {
-    .column-2.carta{
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        column-gap: 1rem;
-        margin-bottom: 1rem;
-        
-    }
-
-    
-}
-
-
-  
-  
-  .plato-carta{
-    display: flex;
-    align-items: center;
-    border: 1px solid #e5e5e5;
-    border-radius: 6px;
-    padding: 1rem;
-  }
-  
-  .img-plato-carta{
-    display: flex;
-    flex-basis: 25%;
-    justify-content: center;
-  }
-  
-  .img-plato-carta img{
-    max-width: 30rem;
-    max-height: 30rem;
-    border-radius: 20px;
-    margin-bottom: 1rem;
-  }
-  
-  .title-plato-carta{
-    border-bottom: none;
-    border-top: none;
-    flex-basis: 60%;
-    padding: 1rem;
-  }
   
 
   .mapa{
@@ -465,7 +380,10 @@ p  {
 .botones-platillos button{
     flex: 0 0 calc(50% - 1rem);
     padding: 1rem 3rem;
-    color: #ff0000;
+    margin: 0.5rem;
+    color:#000000;
+    font-weight: 700;
+    font-size: large;
 }
 @media(min-width: 768px) {
     .botones-platillos{
@@ -487,7 +405,8 @@ p  {
 .platillo{
     flex: 0 0 calc(33.3% - 1rem);
     border: 1px solid #f88d02;
-    padding: 2rem;
+    margin-top: 5rem;
+    padding: 1rem;
     border-radius: 5px;
 }
 .platillo h2{
@@ -499,7 +418,7 @@ p  {
 }
 .precio{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
 }
 .precio p{
     font-weight: bold;
