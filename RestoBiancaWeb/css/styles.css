@@ -166,6 +166,20 @@ img {
     margin: 10px;
 }
 
+.navegacion__enlace:focus{
+    background-color: #ee8309;
+}
+.navegacion__enlace:active{
+    color: #000000;
+}
+.navegacion__enlace:hover{
+    background-color: #ee8309;
+    border-radius: 20px;
+}
+
+
+
+
 /****              MAIN +++++++++++++++++++ *******/
 
 body{
