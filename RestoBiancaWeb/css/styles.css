@@ -1,6 +1,5 @@
 :root{
-    --fuenteHeading: 'PT Sans', sans-serif;
-    --fuenteParrafos: 'Open Sans', sans-serif;
+ 
     --fuenteHeading:'Arima Madurai', cursive;
     --fuenteParrafos: 'Mulish'. sans-serif;
 
@@ -91,7 +90,8 @@ img {
 /*************** header *************/
 
 .header {
-    background-image: url(../img/header2.jpg) ;
+    background-image: url(../img/header2.jpg)  ;
+   
     height: 60rem;
     background-size: cover;
     background-repeat:  no-repeat;
@@ -190,7 +190,7 @@ body{
   
 }
 .tamaño2{
-    height: 80rem;
+    height: 50rem;
     width: 80;
     border-radius: 10%;
 }
@@ -255,11 +255,13 @@ p  {
 
 .tamaño{
   border-radius:2% ;
+  ;
 }
 
 .entrada__imagen{
     align-items: center;
     padding: 2rem;
+    ;
    
 }
 
@@ -434,13 +436,86 @@ p  {
   @media (min-width: 768px) {
     .mapa-contenido{
         margin: 3rem;
-        box-shadow: 10px 10px 10px 10px #fdd873;
+        box-shadow: 10px 10px 10px 10px #f88d02;
     
     }
     
   }
 
 
+/* /*platillos*/
+
+
+.menu{
+    padding-top: 4rem;
+}
+
+.texto-platillos{
+    text-align: center;
+    font-size: 5rem;
+    
+}
+
+.botones-platillos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+}
+.botones-platillos button{
+    flex: 0 0 calc(50% - 1rem);
+    padding: 1rem 3rem;
+    color: #ff0000;
+}
+@media(min-width: 768px) {
+    .botones-platillos{
+        display: inline-block;
+    }
+    .botones-platillos button{
+        flex: unset;
+    }
+}
+@media(min-width: 768px) {
+    .platillos{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap:wrap;
+        margin-top: 4rem;
+        
+    }
+}
+.platillo{
+    flex: 0 0 calc(33.3% - 1rem);
+    border: 1px solid #f88d02;
+    padding: 2rem;
+    border-radius: 5px;
+}
+.platillo h2{
+    text-align: center;
+    color: var(--blanco);
+}
+.platillo p{
+    font-size: 1.8rem;
+}
+.precio{
+    display: flex;
+    justify-content: space-between;
+}
+.precio p{
+    font-weight: bold;
+    font-size: 2rem;
+    
+    
+}
+.precio button{
+    padding:1rem;
+    border-radius: 5px;
+    border: none;
+    background-color: var(--rojo);
+    color: var(--blanco);
+    height: 3.8rem;
+    text-align: center;
+}
 
 /*                        *footer   *************************/
 
@@ -460,6 +535,9 @@ p  {
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffc826', endColorstr='#ff2525', GradientType=0 );
     padding-bottom: 3rem;
     margin-top: 4rem;;
+    align-items: center;
+    justify-content: center;
+    
     
 }
 .container{
@@ -528,6 +606,58 @@ footer p {
 }
 
 
+.pie-pagina{
+    margin-top: 5rem;
+    background-color: rgb(20,20,20);
+    padding: 5rem;
+}
+@media(min-width:768px){
+    .contenedor-piepagina{
+        display: flex;
+        justify-content: space-between;
+    }
+
+}
+.info{
+    flex: 0 0 calc(25% - 1rem);
+    margin-bottom: 2rem;
+}
+.info h3, .info p{
+    color: var(--blanco);
+    text-align: center;
+}
+.info h3{
+    font-size: 2.2rem;
+}
+.info p{
+    font-size: 1.8rem;
+}
+
+.redes-pie{
+    text-align: center;
+}
+.info input[type="email"]{
+    font-family: var(--parrafos);
+    display: inline-block;
+    margin-bottom: 1rem;
+    padding: 1rem;
+    border-radius: 5px;
+    outline: none;
+    width: 100%;
+}
+
+.info input[type="submit"]{
+    padding: .5rem 2rem;
+    font-size: 1.8rem;
+    border-radius: 0;
+}
+.footer{
+    text-align: center;
+    background-color: var(--oscuro);
+    color: var(--blanco);
+    padding: 2rem;
+    font-size: 2rem;
+}
 
 
 /***********    sobre Nosotros  ***************/
